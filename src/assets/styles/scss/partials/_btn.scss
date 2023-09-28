@@ -1,0 +1,63 @@
+body .btn {
+    font-weight: 600;
+    font-size: 16px;
+
+    background-color: var(--orange);
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+
+    [type="submit"] {
+        color: inherit;
+    }
+
+    &:disabled {
+        opacity: 0.8;
+    }
+    &-primary {
+        background-color: var(--secondary-color);
+        color: #fff;
+
+    }
+}
+.v-application {
+    a{
+        &.btn-primary{
+            color: #fff;
+        }
+    }
+
+}
+.v-application .link-text,
+.link-text {
+    color: var(--blue2);
+}
+
+.action {
+    .btn {
+        background-color: transparent;
+        margin: 0 10px;
+
+        &-view {
+            background-color: var(--secondary-color);
+        }
+
+        &-edit {
+            background-color: var(--blue);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 6px 15px;
+            border-radius: 5px;
+            // background-color: var(--secondary-color);
+        }
+
+        &-delete {
+            background-color: var(--red);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 4px 15px;
+            border-radius: 5px;
+        }
+    }
+}

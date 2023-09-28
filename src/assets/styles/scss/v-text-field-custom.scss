@@ -1,0 +1,30 @@
+.v-text-field {
+  background-color: white;
+  border-radius: 5px;
+
+
+  .v-field {
+    // display: block;
+    box-shadow: none;
+    padding-right: 0;
+    background: white;
+
+    .v-field__overlay,
+    .v-field__outline,
+    .v-field__loader {
+      display: none;
+    }
+
+
+  }
+
+  .v-input__append {
+    margin-left: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .v-input__details {
+    display: none;
+  }
+}

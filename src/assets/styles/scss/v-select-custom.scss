@@ -1,0 +1,17 @@
+.normal-v-select {
+
+  .v-field {
+    // display: block;
+    padding-right: 0;
+    background: white;border-radius: 5px;
+
+    .v-field__overlay,
+    .v-field__outline {
+      display: none;
+    }
+  }
+
+  .v-input__details {
+    display: none;
+  }
+}

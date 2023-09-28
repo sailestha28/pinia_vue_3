@@ -1,0 +1,31 @@
+.nav-item {
+  border-radius: 6px;
+
+  &:hover,
+  &:active {
+    background: #F3F4F8;
+
+    span {
+      color: black;
+
+      path,
+      circle,
+      ellipse {
+        stroke: black;
+      }
+    }
+  }
+
+  &.exact-active {
+    background: #F3F4F8;
+
+    span {
+      color: black;
+      font-weight: 600;
+
+      path {
+        stroke: black;
+      }
+    }
+  }
+}

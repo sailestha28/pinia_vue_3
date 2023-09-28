@@ -1,0 +1,14 @@
+:root {
+    --primary-color: #282828;
+    --title-color: #282828;
+    --secondary-color: #be1e2d;
+    --input-border-color: #ced4da;
+
+    --background: #f2f2f2;
+    --white: #fff;
+    --blue: #4b89dc;
+    --red: #db4453;
+}
+.color-red{
+    color: var(--secondary-color);
+}
