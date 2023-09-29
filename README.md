@@ -2,7 +2,7 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
-[Build Preview Link](https://jobins-frontend-challenge.vercel.app/)
+[Build Preview Link](https://pinia-vue-router-test.vercel.app/)
 
 ## Recommended IDE Setup
 
